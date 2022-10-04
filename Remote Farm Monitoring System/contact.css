@@ -1,0 +1,111 @@
+body {
+    background-color: blueviolet;
+    background-image: url("farm.jpg");
+}
+
+h1 {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    color: rgb(237, 235, 241);
+    text-decoration: none;
+}
+
+h2 {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: left;
+    color: rgb(255, 255, 255);
+}
+
+ul {
+    font-family: Arial, Helvetica, sans-serif;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+
+}
+
+li {
+    float: left;
+    display: inline;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+
+}
+
+li a:hover {
+    background-color: #111;
+}
+
+footer {
+    position: relative;
+    top: 625px;
+    text-align: center;
+    padding: 2px;
+    background-color: #333;
+    color: white;
+
+}
+
+
+
+
+
+
+
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: url("farm.jpg");
+}
+
+h3 {
+    text-align: center;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+input[type=text],
+select,
+textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+}
+
+input[type=submit] {
+    background-color: #806c6c;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+input[type=submit]:hover {
+    background-color: #9c9c9c;
+}
+
+label {
+    color: #ffffff;
+}
+
+.container {
+    border-radius: 5px;
+    background-color: #474e5d;
+    padding: 10px;
+}
